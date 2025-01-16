@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Project - 3 hours. ( Live Coding Round )
+### Build a one page with following specs:
 
-## Getting Started
+- ### Build a web page that lists all the documents, with a search bar that can search within the text inside the documents. Clicking the links should open a page with the transcript with the segment searched highlighted. Rank the search results. 
 
-First, run the development server:
+- ### Please build the front end web page first. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### We will provide 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-  Google drive with all the transcript files 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-  https://drive.google.com/drive/folders/167nvaFIm_0GW9fW6JGGjWO6L5nHd1OxN?usp=drive_link
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+### Requirements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Use  NextJS (react/nodejs)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Code with live screen share
 
-## Deploy on Vercel
+- Use vector search (ideally) or semantic search (at a minimum): eg: searching for "fast growth" should show "accelerated traction" as a result. 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Evaluation
+
+- Best in class: 
+
+    - Great design - easy to read, results apparent in a glance, allows user to click the most relevant link immediately 
+
+    - Vector or Semantic search - searching for “revenue growth” shows “topline growth”,”revenue growth”,”sales upside”, etc
+
+    - Smart sort options - sort by date, most relevant, etc
+
+    - Smart filter options - filter by type of transcript 
+
